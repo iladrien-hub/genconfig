@@ -1,0 +1,16 @@
+int_field: 0
+str_field: "Hello world!"
+
+dict_field:
+  nested_int: 1
+  nested_str: "Hello world!"
+
+list_field:
+  - "asd"
+  - 1
+  - .23
+
+list_single_type_field:
+  - "asd"
+  - "asd1"
+  - "asd2"
