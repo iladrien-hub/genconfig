@@ -1,9 +1,10 @@
-import genconfig
 from setuptools import setup
+
+from version import __version__
 
 setup(
     name='genconfig',
-    version=genconfig.__version__,
+    version=__version__,
     py_modules=['genconfig'],
     entry_points={
         'console_scripts': [

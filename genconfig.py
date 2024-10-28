@@ -6,10 +6,9 @@ import re
 import astor
 import click
 import yaml
-
-__version__ = '0.2.3'
-
 from astor.source_repr import split_lines
+
+from version import __version__
 
 __debug = False
 
