@@ -10,5 +10,10 @@ setup(
             'genconfig = genconfig:main'
         ]
     },
-    install_requires=['click', 'PyYAML']
+    install_requires=[
+        'click',
+        'PyYAML',
+        'astor',
+        'marshmallow',
+    ]
 )
